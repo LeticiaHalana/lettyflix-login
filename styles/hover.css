@@ -1,0 +1,19 @@
+.button_entrar:hover {
+    background-color: #749c3f;
+}
+
+.esquecer_senha:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.assinar_agora:hover, .telefone:hover {
+    text-decoration: underline;
+}
+
+.checkbox:hover{
+    border: 2px solid white ;
+}
+.form-element:focus-visible{
+    border: 2px solid white;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-letras-brancas: #FAF9FB;
+    --cor-letras-cinzas: #333333;
+}
+
+.decoration {
+    text-decoration: none;
+    cursor: pointer;
+}

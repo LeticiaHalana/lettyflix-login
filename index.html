@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/globalStyle.css">
+    <link rel="stylesheet" href="styles/backgroun.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/hover.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/media_querie.css ">
+    <title>Lettyflix</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="back">
+            <header>
+                <div class="logo">
+                    <img class="logo" src="imgs/lettyflixlogo.png" alt="logo" height="50px" width="200px">
+                </div>
+            </header>
+
+            <div class="login_back">
+                <h2>Entrar</h2>
+                <form class="input_container">
+                    <div class="form-element">
+                        <input class="input floating-label" required type="email"
+                            placeholder="Email ou número de telefone">
+                    </div>
+
+                    <div class="form-element">
+                        <input class="input floating-label" required type="password" placeholder="Senha">
+                    </div>
+
+                    <button class="button_entrar" type="submit">Entrar</button>
+                    <a href="#" class="esquecer_senha decoration" id="showMessage">
+                        Esqueceu a senha?
+                    </a>
+
+                    <dialog id="esquecer_senha">
+                        <div class="login_content">
+                            <div class="recuperar_senha">
+                                <h1 class="title">Esqueci meu email / senha</h1>
+                                <p class="descricao">Como você prefere redefinir sua senha?</p>
+                                <div class="email">
+                                    <input class="restaurar" type="radio">
+                                    <label class="descricao label">Email</label>
+                                </div>
+                                <p class="descricao">
+                                    Enviaremos um email com instruções de como redefinir sua senha.
+                                </p>
+                                <div class="input_dialog">
+                                    <input class="inputDialog" required type="email" placeholder="nome@exemplo.com">
+                                </div>
+                                <button id="enviar" type="button">Enviar por email</button>
+                                <a class="link_nao_lembro" href="#">Não me lembro do meu email ou telefone.</a>
+                            </div>
+                        </div>
+                    </dialog>
+
+
+                </form>
+
+                <footer class="lembrar">
+                    <div>
+                        <input class="checkbox" type="checkbox">
+                        <span class="check">Lembre-se de mim</span>
+                    </div>
+                    <p class="assinar">
+                        <span class="novo_por_aqui">Novo por aqui?</span> <a class="decoration assinar_agora"
+                            href="#">Assine agora</a> .
+                    </p>
+                </footer>
+
+
+            </div>
+
+            <footer class="rodape">
+                <div class="footer_container">
+                    <div>
+                        <p class="duvidas">
+                            Dúvidas? Ligue <a href="#" class="telefone decoration">0800 591 2876</a>
+                        </p>
+                    </div>
+                    <div class="container_links_uteis">
+                        <ul style="list-style: none;" class="links_uteis">
+                            <li><a class=" lembrar links" href="#">Perguntas frequentes</a></li>
+                            <li><a class=" lembrar links" href="#">Central de Ajuda</a></li>
+                            <li><a class=" lembrar links" href="#">Termos de Uso</a></li>
+                            <li><a class=" lembrar links" href="#">Privacidade</a></li>
+                            <li><a class=" lembrar links" href="#">Preferências de cookies</a></li>
+                            <li><a class=" lembrar links" href="#">Informações corporativas</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
